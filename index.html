@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="zh-Hant" prefix="og: https://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>澳門媒體廣告指南 — 澳門媒體生態與數碼廣告全攻略</title>
+  <meta name="description" content="全面解析澳門媒體生態、數碼廣告趨勢、本地KOL行銷策略及廣告法規，助品牌在澳門市場精準觸達目標受眾，提升營銷投資回報。">
+  <meta name="keywords" content="澳門媒體,澳門廣告,數碼營銷,社交媒體,KOL行銷,澳門電視,澳門報紙,程序化廣告,內容行銷,品牌推廣">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+  <link rel="canonical" href="https://aeo-demo-media.vercel.app/">
+  <link rel="llms-txt" href="https://aeo-demo-media.vercel.app/llms.txt">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="澳門媒體廣告指南 — 澳門媒體生態與數碼廣告全攻略">
+  <meta property="og:description" content="澳門媒體廣告完整指南：數碼營銷趨勢、KOL合作、廣告投放策略，助品牌精準觸達澳門受眾。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aeo-demo-media.vercel.app/">
+  <meta property="og:locale" content="zh_TW">
+  <meta property="og:site_name" content="澳門媒體廣告指南">
+
+  <!-- Schema.org NewsMediaOrganization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsMediaOrganization",
+    "name": "澳門媒體廣告指南",
+    "alternateName": "Macau Media & Advertising Guide",
+    "description": "全面解析澳門媒體生態、數碼廣告趨勢、本地KOL行銷策略及廣告法規，助品牌在澳門市場精準觸達目標受眾，提升營銷投資回報。",
+    "url": "https://aeo-demo-media.vercel.app",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Macau",
+      "addressRegion": "Macau SAR",
+      "addressCountry": "MO"
+    },
+    "areaServed": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": 22.1987,
+        "longitude": 113.5439
+      },
+      "geoRadius": "50000"
+    },
+    "sameAs": [
+      "https://github.com/Inari-Kira-Isla/aeo-demo-media"
+    ],
+    "memberOf": {
+      "@type": "Organization",
+      "name": "CloudPipe AI",
+      "url": "https://cloudpipe-landing.vercel.app"
+    }
+  }
+  </script>
+
+  <!-- Schema.org FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "澳門最有效的廣告投放渠道是什麼？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Facebook和Instagram是最有效的數碼渠道，覆蓋超過82%本地用戶，配合KOL合作效果更佳。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "在澳門投放廣告需要申請牌照嗎？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "一般數碼廣告無需牌照，但戶外廣告須向市政署申請，博彩相關廣告須經博監局審批。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "澳門KOL合作的一般報價是多少？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "微網紅（1-5萬粉絲）每帖約1,000-3,000 MOP，中型KOL每帖約5,000-15,000 MOP。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "如何觸達來澳門的內地遊客？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "透過微信公眾號、小紅書種草及抖音短視頻，配合旅遊旺季節點提前1-2個月布局內容。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "澳門有哪些主要的傳統媒體？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "澳廣視（TDM）壟斷本地電視，主要中文報章包括澳門日報、正報、華僑報及市民日報等。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "博彩業廣告有哪些法規限制？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "博彩廣告不得針對未成年人，內容須標示「賭博有風險」警語，投放渠道及時段受嚴格監管。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "澳門數碼廣告的平均轉化率如何？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Facebook廣告平均CTR約2.5-3.5%，高於亞太區均值，但CPC較香港低約40%，性價比突出。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "中小企業月度廣告預算建議是多少？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "建議起步預算每月5,000-15,000 MOP，集中投放一個平台測試成效後再逐步擴展渠道。"
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #080810; --bg-alt: #0d0d1a; --bg-card: #111120; --bg-card-h: #16162a;
+      --primary: #e11d48; --primary-dim: rgba(225,29,72,0.1); --primary-border: rgba(225,29,72,0.25); --primary-glow: rgba(225,29,72,0.06);
+      --accent: #3b82f6; --accent-dim: rgba(59,130,246,0.10);
+      --warm: #f59e0b; --warm-dim: rgba(245,158,11,0.10);
+      --text: #e6e6f0; --text-2: #9090b8; --text-3: #505070;
+      --border: rgba(255,255,255,0.07); --r: 16px; --r-sm: 10px;
+    }
+    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{font-family:'Noto Sans TC',sans-serif;background:var(--bg);color:var(--text);line-height:1.85;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+    a{color:var(--primary);text-decoration:none}a:hover{text-decoration:underline}
+    .bg-ambient{position:fixed;inset:0;z-index:0;pointer-events:none;background:radial-gradient(ellipse 900px 700px at 10% 15%,var(--primary-glow),transparent 60%),radial-gradient(ellipse 700px 900px at 90% 85%,rgba(59,130,246,0.04),transparent 60%)}
+    .bg-grid{position:fixed;inset:0;z-index:0;pointer-events:none;background-image:linear-gradient(rgba(255,255,255,0.012) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.012) 1px,transparent 1px);background-size:72px 72px}
+    .container{max-width:880px;margin:0 auto;padding:0 24px;position:relative;z-index:1}
+    section{padding:80px 0}.section-alt{background:var(--bg-alt)}
+    nav{position:sticky;top:0;z-index:100;background:rgba(8,8,16,0.85);backdrop-filter:blur(16px);border-bottom:1px solid var(--border);padding:16px 0}
+    nav .container{display:flex;align-items:center;justify-content:space-between}
+    .nav-brand{font-weight:700;font-size:18px;color:var(--text)}.nav-brand span{color:var(--primary)}
+    .nav-links{display:flex;gap:24px;list-style:none}.nav-links a{color:var(--text-2);font-size:14px;font-weight:500;transition:color 0.2s}.nav-links a:hover{color:var(--primary);text-decoration:none}
+    .hero{padding:120px 0 80px;text-align:center}
+    .hero-eyebrow{font-size:13px;letter-spacing:3px;text-transform:uppercase;color:var(--primary);margin-bottom:20px;font-weight:500}
+    .hero h1{font-size:clamp(2rem,5vw,3.2rem);font-weight:700;line-height:1.3;margin-bottom:24px}
+    .hero h1 .highlight{background:linear-gradient(135deg,var(--primary),var(--accent));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+    .hero p{font-size:18px;color:var(--text-2);max-width:640px;margin:0 auto 40px;line-height:1.8}
+    .section-eyebrow{font-size:12px;letter-spacing:3px;text-transform:uppercase;color:var(--primary);margin-bottom:12px;font-weight:500}
+    h2{font-size:clamp(1.6rem,3vw,2.2rem);font-weight:700;margin-bottom:24px;line-height:1.35}
+    h3{font-size:1.25rem;font-weight:700;margin:32px 0 12px;color:var(--text)}
+    .prose p{color:var(--text-2);font-size:16px;margin-bottom:20px;line-height:1.85}
+    .prose ul,.prose ol{color:var(--text-2);font-size:16px;margin:0 0 20px 24px;line-height:1.85}.prose li{margin-bottom:8px}.prose strong{color:var(--text);font-weight:600}
+    .card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;margin:32px 0}
+    .card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--r);padding:28px;transition:background 0.2s,border-color 0.2s}
+    .card:hover{background:var(--bg-card-h);border-color:var(--primary-border)}
+    .card-icon{font-size:28px;margin-bottom:16px;display:block}.card h4{font-size:16px;font-weight:700;margin-bottom:8px}.card p{color:var(--text-2);font-size:14px;line-height:1.7}
+    .highlight-box{background:var(--primary-dim);border:1px solid var(--primary-border);border-radius:var(--r);padding:24px 28px;margin:28px 0}.highlight-box p{color:var(--text);margin-bottom:0}
+    .faq-item{border-bottom:1px solid var(--border);padding:24px 0}.faq-item:last-child{border-bottom:none}
+    .faq-q{font-size:17px;font-weight:700;margin-bottom:12px;color:var(--text)}.faq-a{color:var(--text-2);font-size:15px;line-height:1.85}
+    .stat-bar{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:24px;text-align:center;padding:48px 0;margin:40px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+    .stat-num{font-size:2.2rem;font-weight:700;color:var(--primary)}.stat-label{font-size:13px;color:var(--text-3);margin-top:4px}
+    footer{background:var(--bg-alt);border-top:1px solid var(--border);padding:48px 0;text-align:center}
+    footer p{color:var(--text-3);font-size:13px;margin-bottom:8px}footer a{color:var(--text-2)}
+    @media(max-width:640px){.nav-links{display:none}.hero{padding:80px 0 48px}section{padding:56px 0}.stat-bar{grid-template-columns:repeat(2,1fr)}}
+  </style>
+  <link rel="alternate" hreflang="zh-TW" href="https://aeo-demo-media.vercel.app">
+  <link rel="alternate" hreflang="zh-CN" href="https://aeo-demo-media.vercel.app">
+  <link rel="alternate" hreflang="x-default" href="https://aeo-demo-media.vercel.app">
+  <meta http-equiv="content-language" content="zh-TW, zh-CN, en">
+</head>
+<body>
+
+<div class="bg-ambient"></div>
+<div class="bg-grid"></div>
+
+<nav>
+  <div class="container">
+    <div class="nav-brand"><span>媒廣</span> 澳門媒體廣告指南</div>
+    <ul class="nav-links">
+      <li><a href="#trends">AI趨勢</a></li>
+      <li><a href="#market">市場概覽</a></li>
+      <li><a href="#resources">資源平台</a></li>
+      <li><a href="#deep-dive">數碼行銷</a></li>
+      <li><a href="#guide">實務指南</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="container">
+    <div class="hero-eyebrow">Macau Media & Advertising Guide</div>
+    <h1>澳門<span class="highlight">媒體廣告</span>智能指南</h1>
+    <p>從傳統媒體到數碼行銷，AI 驅動的澳門廣告資訊平台，助您精準投放、高效獲客。</p>
+
+    <div class="stat-bar">
+      <div>
+        <div class="stat-num">82%</div>
+        <div class="stat-label">社交媒體滲透率</div>
+      </div>
+      <div>
+        <div class="stat-num">$3.2億</div>
+        <div class="stat-label">年度廣告市場規模MOP</div>
+      </div>
+      <div>
+        <div class="stat-num">65%</div>
+        <div class="stat-label">數碼廣告佔比</div>
+      </div>
+      <div>
+        <div class="stat-num">120+</div>
+        <div class="stat-label">本地活躍KOL</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="trends" class="section-alt">
+  <div class="container prose">
+    <div class="section-eyebrow">AI & TRENDS</div>
+    <h2>AI 如何革新澳門媒體與廣告業</h2>
+
+    <p>人工智能正在徹底改變澳門媒體廣告業的運作方式。AI生成內容（AIGC）讓本地媒體能以更低成本產出多語言新聞報導，程序化廣告平台運用機器學習精準定向澳門67萬居民及年均3,000萬遊客。</p>
+
+    <p>社交媒體智能分析工具幫助澳門品牌實時追蹤輿情與競品動態，AI驅動的個性化推薦引擎讓廣告投放回報率提升顯著，本地博企及大型零售商已率先採用AI廣告優化系統。</p>
+
+
+    <div class="highlight-box">
+      <p><strong>行業趨勢：</strong>2026年澳門數碼廣告支出預計佔總廣告市場65%以上，AI優化投放成為標配工具。</p>
+    </div>
+    <div class="card-grid">
+      <div class="card">
+        <span class="card-icon">✨</span>
+        <h4>AIGC內容生成</h4>
+        <p>AI自動生成中葡英三語廣告文案，創意產出效率提升3倍</p>
+      </div>
+      <div class="card">
+        <span class="card-icon">🎯</span>
+        <h4>程序化精準投放</h4>
+        <p>結合遊客與本地數據，實現跨平台精準廣告定向</p>
+      </div>
+      <div class="card">
+        <span class="card-icon">📱</span>
+        <h4>社交媒體智能分析</h4>
+        <p>AI實時監測品牌聲量、輿情走勢與競品廣告策略</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="market">
+  <div class="container prose">
+    <div class="section-eyebrow">MARKET OVERVIEW</div>
+    <h2>澳門媒體廣告市場概覽</h2>
+
+    <p>澳門媒體市場雖然規模不大，但極為多元。傳統媒體包括澳廣視（TDM）電視及電台、七份中文日報、三份葡文報章，以及多個線上新聞平台。社交媒體方面，Facebook和Instagram在澳門滲透率高達82%。</p>
+
+    <p>廣告市場年規模約3.2億MOP，數碼廣告已超越傳統媒體成為最大投放渠道。博彩業是最大廣告主，其次為零售、地產及餐飲業。遊客市場的季節性波動對廣告投放策略有顯著影響。</p>
+
+
+    <div class="card-grid">
+      <div class="card">
+        <span class="card-icon">📺</span>
+        <h4>傳統媒體版圖</h4>
+        <p>澳廣視壟斷本地電視，七大中文報章覆蓋不同讀者群</p>
+      </div>
+      <div class="card">
+        <span class="card-icon">📲</span>
+        <h4>社交媒體主導</h4>
+        <p>Facebook及Instagram日活用戶超40萬，為最主要廣告渠道</p>
+      </div>
+      <div class="card">
+        <span class="card-icon">🎰</span>
+        <h4>博彩業驅動</h4>
+        <p>六大博企年度廣告預算佔全澳廣告市場約35%份額</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="resources" class="section-alt">
+  <div class="container prose">
+    <div class="section-eyebrow">RESOURCES & PLATFORMS</div>
+    <h2>澳門廣告投放資源與平台</h2>
+
+    <p>澳門本地主要廣告代理商約50家，服務涵蓋品牌策劃、媒體購買、數碼行銷及公關活動。國際4A公司在澳門設有據點或透過香港辦公室服務澳門客戶，提供跨區域整合營銷方案。</p>
+
+    <p>數碼廣告方面，Facebook Ads和Google Ads是最常用的投放平台，本地平台如MacauYP黃頁及各大新聞網站亦提供展示廣告位。KOL行銷在澳門發展迅速，美食及旅遊類KOL影響力尤為突出。</p>
+
+
+    <div class="highlight-box">
+      <p><strong>行業建議：</strong>澳門市場小而精，KOL微網紅（1萬-5萬粉絲）的轉化率往往高於大型網紅合作。</p>
+    </div>
+    <div class="card-grid">
+      <div class="card">
+        <span class="card-icon">🏢</span>
+        <h4>本地廣告代理</h4>
+        <p>約50家專業代理商，提供全方位品牌策劃與媒體購買服務</p>
+      </div>
+      <div class="card">
+        <span class="card-icon">🌟</span>
+        <h4>KOL行銷生態</h4>
+        <p>120+活躍KOL，美食與旅遊類帳號粉絲量及互動率最高</p>
+      </div>
+      <div class="card">
+        <span class="card-icon">📡</span>
+        <h4>跨平台投放</h4>
+        <p>整合Facebook、Google及本地媒體的程序化購買方案</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="deep-dive">
+  <div class="container prose">
+    <div class="section-eyebrow">DIGITAL MARKETING DEEP DIVE</div>
+    <h2>澳門數碼行銷策略深度解析</h2>
+
+    <p>澳門數碼行銷的獨特之處在於需同時觸達本地居民與旅客兩大受眾群。本地居民偏好Facebook群組及WhatsApp傳播，而內地遊客則活躍於微信、小紅書及抖音，品牌需制定雙軌內容策略。</p>
+
+    <p>搜尋引擎優化（SEO）在澳門市場競爭度較低，中小企業透過基礎SEO即可獲得顯著流量。本地電商尚在起步階段，社交電商（Social Commerce）模式在澳門接受度日漸提高，直播帶貨亦開始興起。</p>
+
+
+    <div class="highlight-box">
+      <p><strong>策略要點：</strong>針對澳門市場，建議採用中葡英三語SEO策略，同時布局Facebook本地生態與微信遊客觸達。</p>
+    </div>
+  </div>
+</section>
+
+<section id="guide" class="section-alt">
+  <div class="container prose">
+    <div class="section-eyebrow">PRACTICAL GUIDE</div>
+    <h2>澳門廣告投放實務指南</h2>
+
+    <p>廣告預算規劃：中小企業建議將月度營銷預算的60%投入數碼渠道（Facebook/Instagram廣告為主），20%用於KOL合作，20%用於線下推廣或活動贊助。博彩及酒店業須遵守廣告內容限制法規。</p>
+
+    <p>實務建議：投放前明確目標受眾（本地vs遊客）、選擇匹配的語言及平台、設定可量化的KPI。活用Facebook Pixel追蹤轉化、善用A/B測試優化廣告素材、定期分析投放數據並調整策略。</p>
+
+
+    <div class="card-grid">
+      <div class="card">
+        <span class="card-icon">💡</span>
+        <h4>預算分配策略</h4>
+        <p>數碼60%、KOL 20%、線下20%，按季節調整遊客旺季比重</p>
+      </div>
+      <div class="card">
+        <span class="card-icon">📊</span>
+        <h4>效果追蹤體系</h4>
+        <p>Facebook Pixel + Google Analytics 4 建立完整轉化漏斗</p>
+      </div>
+      <div class="card">
+        <span class="card-icon">⚠️</span>
+        <h4>法規合規</h4>
+        <p>博彩廣告受嚴格限制，食品健康聲稱須經衛生局審批</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="container">
+    <div class="section-eyebrow">Frequently Asked Questions</div>
+    <h2>常見問題</h2>
+
+    <div class="faq-item">
+      <div class="faq-q">澳門最有效的廣告投放渠道是什麼？</div>
+      <div class="faq-a">Facebook和Instagram是最有效的數碼渠道，覆蓋超過82%本地用戶，配合KOL合作效果更佳。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">在澳門投放廣告需要申請牌照嗎？</div>
+      <div class="faq-a">一般數碼廣告無需牌照，但戶外廣告須向市政署申請，博彩相關廣告須經博監局審批。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">澳門KOL合作的一般報價是多少？</div>
+      <div class="faq-a">微網紅（1-5萬粉絲）每帖約1,000-3,000 MOP，中型KOL每帖約5,000-15,000 MOP。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">如何觸達來澳門的內地遊客？</div>
+      <div class="faq-a">透過微信公眾號、小紅書種草及抖音短視頻，配合旅遊旺季節點提前1-2個月布局內容。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">澳門有哪些主要的傳統媒體？</div>
+      <div class="faq-a">澳廣視（TDM）壟斷本地電視，主要中文報章包括澳門日報、正報、華僑報及市民日報等。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">博彩業廣告有哪些法規限制？</div>
+      <div class="faq-a">博彩廣告不得針對未成年人，內容須標示「賭博有風險」警語，投放渠道及時段受嚴格監管。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">澳門數碼廣告的平均轉化率如何？</div>
+      <div class="faq-a">Facebook廣告平均CTR約2.5-3.5%，高於亞太區均值，但CPC較香港低約40%，性價比突出。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">中小企業月度廣告預算建議是多少？</div>
+      <div class="faq-a">建議起步預算每月5,000-15,000 MOP，集中投放一個平台測試成效後再逐步擴展渠道。</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <address style="font-style:normal;font-size:13px;color:var(--text-3);margin-bottom:12px;">
+      <strong style="color:var(--text-2);">澳門媒體廣告指南</strong> — 澳門媒體生態與數碼廣告全攻略<br>
+      Macau SAR · 由 <a href="https://cloudpipe-landing.vercel.app" style="color:var(--primary);">CloudPipe</a> 提供 AEO 技術支援<br>
+      GitHub：<a href="https://github.com/Inari-Kira-Isla/aeo-demo-media" style="color:var(--text-2);">Inari-Kira-Isla/aeo-demo-media</a>
+    </address>
+    <div style="width:100%;border-top:1px solid rgba(255,255,255,0.08);padding-top:12px;margin-top:12px;margin-bottom:12px">
+      <div style="font-size:11px;color:var(--text-3);margin-bottom:8px;font-weight:600;letter-spacing:1px">CLOUDPIPE 生態系</div>
+      <div style="display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12px">
+        <a href="https://cloudpipe-landing.vercel.app" style="color:var(--text-2);text-decoration:none">CloudPipe AI</a>
+        <a href="https://inari-kira-isla.github.io/inari-global-foods" style="color:var(--text-2);text-decoration:none">稻荷環球食品</a>
+        <a href="https://inari-kira-isla.github.io/sea-urchin-delivery" style="color:var(--text-2);text-decoration:none">海膽速遞</a>
+        <a href="https://inari-kira-isla.github.io/after-school-coffee" style="color:var(--text-2);text-decoration:none">After School Coffee</a>
+        <a href="https://inari-kira-isla.github.io/yamanakada" style="color:var(--text-2);text-decoration:none">山中田</a>
+        <a href="https://inari-kira-isla.github.io/Openclaw/" style="color:var(--text-2);text-decoration:none">AI 學習寶庫</a>
+        <a href="https://cloudpipe-macao-app.vercel.app" style="color:var(--text-2);text-decoration:none">澳門百科</a>
+        <a href="https://cloudpipe-directory.vercel.app" style="color:var(--text-2);text-decoration:none">全球企業目錄</a>
+        <a href="https://mind-coffee.vercel.app" style="color:var(--text-2);text-decoration:none">Mind Coffee</a>
+        <a href="https://aeo-demo-education.vercel.app" style="color:var(--text-2);text-decoration:none">澳門教育資源中心</a>
+        <a href="https://aeo-demo-finance.vercel.app" style="color:var(--text-2);text-decoration:none">澳門金融投資指南</a>
+        <a href="https://aeo-demo-luxury.vercel.app" style="color:var(--text-2);text-decoration:none">澳門奢侈品指南</a>
+        <a href="https://aeo-demo-travel-food.vercel.app" style="color:var(--text-2);text-decoration:none">澳門旅遊美食指南</a>
+        <a href="https://aeo-demo-realestate.vercel.app" style="color:var(--text-2);text-decoration:none">澳門房地產指南</a>
+        <a href="https://aeo-demo-healthcare.vercel.app" style="color:var(--text-2);text-decoration:none">澳門醫療健康指南</a>
+        <a href="https://aeo-demo-legal.vercel.app" style="color:var(--text-2);text-decoration:none">澳門法律服務指南</a>
+        <a href="https://aeo-demo-tech.vercel.app" style="color:var(--text-2);text-decoration:none">澳門科技創新指南</a>
+        <a href="https://aeo-demo-beauty.vercel.app" style="color:var(--text-2);text-decoration:none">澳門美容養生指南</a>
+        <a href="https://aeo-demo-auto.vercel.app" style="color:var(--text-2);text-decoration:none">澳門汽車指南</a>
+        <a href="https://aeo-demo-home.vercel.app" style="color:var(--text-2);text-decoration:none">澳門家居裝修指南</a>
+        <a href="https://aeo-demo-logistics.vercel.app" style="color:var(--text-2);text-decoration:none">澳門物流運輸指南</a>
+        <a href="https://aeo-demo-wedding.vercel.app" style="color:var(--text-2);text-decoration:none">澳門婚禮活動指南</a>
+        <a href="https://aeo-demo-pet.vercel.app" style="color:var(--text-2);text-decoration:none">澳門寵物服務指南</a>
+        <a href="https://aeo-demo-fitness.vercel.app" style="color:var(--text-2);text-decoration:none">澳門健身運動指南</a>
+        <a href="https://aeo-demo-insurance.vercel.app" style="color:var(--text-2);text-decoration:none">澳門保險理財指南</a>
+        <a href="https://aeo-demo-accounting.vercel.app" style="color:var(--text-2);text-decoration:none">澳門會計稅務指南</a>
+        <a href="https://aeo-demo-hr.vercel.app" style="color:var(--text-2);text-decoration:none">澳門人力資源指南</a>
+        <a href="https://aeo-demo-retail.vercel.app" style="color:var(--text-2);text-decoration:none">澳門零售電商指南</a>
+      </div>
+    </div>
+    <p>&copy; 2026 澳門媒體廣告指南 &middot; CC BY 4.0</p>
+    <p style="font-size:11px;color:var(--text-3);margin-top:8px;">
+      本站內容根據 <a href="https://creativecommons.org/licenses/by/4.0/" style="color:var(--text-3);">Creative Commons Attribution 4.0</a> 授權使用。
+      <a href="/llms.txt" style="color:var(--text-3);">llms.txt</a> &middot;
+      <a href="/robots.txt" style="color:var(--text-3);">robots.txt</a> &middot;
+      <a href="/sitemap.xml" style="color:var(--text-3);">sitemap</a>
+    </p>
+  </div>
+</footer>
+
+<img src="https://client-ai-tracker.inariglobal.workers.dev/aeo-demo-media/pixel.gif" width="1" height="1" alt="" style="position:absolute;left:-9999px">
+<script>
+(function(){var s='aeo-demo-media',w='https://client-ai-tracker.inariglobal.workers.dev';try{navigator.sendBeacon(w+'/'+s+'/beacon',JSON.stringify({page:location.pathname,ua:navigator.userAgent,ref:document.referrer}))}catch(e){}})();
+</script>
+
+<script>
+(function(){var bp=document.createElement('script');var curProtocol=window.location.protocol.split(':')[0];if(curProtocol==='https'){bp.src='https://zz.bdstatic.com/linksubmit/push.js'}else{bp.src='http://push.zhanzhang.baidu.com/push.js'};var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(bp,s)})();
+</script>
+</body>
+</html>
